@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/indxe.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="icon">
+            <a href="#"><img src="images/logo_ANA_noBack.png" alt="Team ANA Logo"></a>
+        </div>
+        <form action="#">
+            <div class="username">
+                <label for="user">Username:</label>
+                <input id="user" type="text" placeholder="Email or Username...">
+            </div>
+            <div class="password">
+                <label for="pass">Password:</label>
+                <div class="pass-box">
+                    <input id="pass" type="password" placeholder="Password...">
+                    <input id="pass" type="text" placeholder="Password..." class="hidden">
+                    <div class="eye-open hidden">
+                        <i class="bi bi-eye"></i>
+                    </div>
+                    <div class="eye-closed">
+                        <i class="bi bi-eye-slash"></i>
+                    </div>
+                </div>
+
+                <p class="check-pass hidden"></p>
+
+                <div class="check-pass-bar">
+                    <div class="backgroundColor"></div>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button type="button">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
